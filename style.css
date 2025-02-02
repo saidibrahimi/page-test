@@ -1,0 +1,140 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family:'poppins', sans-serif; 
+   
+}
+
+.header{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    
+}
+
+nav{
+    width: 90%;
+    position: absolute;
+    top: 0;
+    margin-top: 10px;
+    
+    padding: 15px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    border-radius: 15px;
+    
+}
+nav :hover{
+    color: black;
+}
+h2{
+    -webkit-text-stroke: 1px red;
+    color: green;
+    align-items: center;
+    font-family:cursive;
+}
+
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+
+}
+
+ul li a:hover{
+    
+    -webkit-text-stroke: 1px red;
+    color: green;
+    background-image: linear-gradient(to top right,red,yellow,green);
+    
+}
+ ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    margin: 2px;
+    font-weight: 500;
+    transition: 2s ease;
+    border-radius: 10px;
+
+
+}
+.logo img{
+    float: left;
+    width: 300px;
+    height: auto;
+}
+
+.content{
+    text-align: center;
+}
+.content h1{
+    margin-top: 50px;
+    font-size: 80px;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.5s; 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.content h1:hover{
+    -webkit-text-stroke: 2px #fff;
+    color: transparent;
+
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 30px;
+    border: 2px solid #fff;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 5px;
+}
+a:hover{
+    
+    color: black;
+    background-image: linear-gradient(to top right,red,yellow,green);
+   
+
+}
+a i{
+    padding: 10px 5px;
+    
+}
+
+
+
+.background-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio:16/9){
+    .background-video{
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+
+@media (mxn-aspect-ratio:16/9){
+    .background-video{
+        width: auto;
+        height: 100%;
+    }
+}
+

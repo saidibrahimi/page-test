@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'poppins', sans-serif; 
+    
+ }
+body{
+    text-align: center;
+    background-color: black;
+    
+   
+
+} 
+video{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+   
+}

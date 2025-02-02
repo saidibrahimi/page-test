@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'poppins', sans-serif; 
+}
+.section{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("morocco-flag.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+.content-section{
+    float: right;
+    width: 55%;
+}
+.img-section{
+    float: left;
+    width: 40%;
+}
+.img-section img{
+    width: 100%;
+    height: auto;
+}
+.content-section .title{
+    text-transform: uppercase;
+    font-size: 50px;
+    -webkit-text-stroke: 3px red;
+    color: green;
+}
+.content-section p{
+    font-size: 17px;
+    color: aliceblue;
+
+}
+
+
